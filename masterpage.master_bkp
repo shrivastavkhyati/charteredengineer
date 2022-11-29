@@ -1,0 +1,242 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="keyword1, keyword2,nsw-n9fzm5zl3hfnb-pmsj5w4bg2p3-cg-b4slldcjvhys1opt02eie4vmrbhk2dsu7iu3g3mul3orp8y1aw6ewpofynlh21jfw-ipv735quttgi0cihv1cksyuo8t22d317"/>
+<title> Welcome To Chartered Engineer </title>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a4186a57209d7d"></script>
+
+ <link href="css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="css/chopslider.css" rel="stylesheet" type="text/css" />
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/jquery.id.chopslider-2.2.0.free.min.js"></script>
+        <script src="js/jquery.id.cstransitions-1.2.min.js"></script>
+<script src="js/main.js"></script>
+        <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="css/Main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KP2M9K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KP2M9K');</script>
+<!-- End Google Tag Manager -->
+    <form id="form1" runat="server">
+    <div class="Warper">
+        <asp:ContentPlaceHolder id="HeaderPart" runat="server">
+        <div class="Header">
+    <div class="Header-Main">
+      <div class="Header-Logo"><img src="images/celogo.png"  /></div>
+      <div class="Header-Right">
+        <div class="Header-Icon"><p style="float: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/certificate-jpg.jpg" /><img src="images/Logo-new.jpg" /></p>
+        
+        
+
+
+
+        <h3></h3>
+        </div>
+        <div class="Header-Email"><p>
+		<font size="4" color="blue">
+You are visitor number::- <!-- Start of SimpleHitCounter Code --></font>
+
+<img src="http://simplehitcounter.com/hit.php?uid=1803637&f=16777215&b=0" border="0" height="18" width="83" alt="web counter">
+
+
+
+<!-- End of SimpleHitCounter Code -->
+<br />
+Mobile No::- +91-9910672118, 9891516275<br />
+Email Id::- pradeep@charteredengineerdelhi.in
+</p>
+</div>
+
+	  </div>
+    </div>
+  </div>
+        </asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder id="NaviPart" runat="server">
+        <div class="Navi">
+	  <div class="Navi-Main">
+	    <ul id="MenuBar1" class="MenuBarHorizontal">
+	      <li><a href="Default.aspx">HOME</a>
+          </li>
+	      <li><a href="AboutUs.aspx">ABOUT US</a></li>
+	      <li><a class="MenuBarItemSubmenu" href="#">SERVICES</a>
+	        <ul>
+	          <li><a href="Importofsecondhandmachineries.aspx">Import of machineries parts</a>   
+              </li>
+	            
+	              <li><a href="AppliationforEPCGlicense.aspx">Application for EPCG license </a></li>
+	              <li><a href="CertificationforDutydrawbackfixing.aspx">Duty drawback fixing</a></li>
+             
+	          <li><a href="InstallationCertificate.aspx">Installation Certificate </a></li>
+	          <li><a href="RawmaterialUseCertification.aspx">Raw material Certification</a></li>
+              <li><a href="Certificationforexportofdefectiveparts.aspx"> Defective parts</a></li>
+              <li><a href="CertificationforMinistry.aspx">Ministry for new & renewable Energy</a></li>
+              <li><a href="CertificationforBIS.aspx">Certification for BIS</a></li>
+              <li><a href="CertifiationoftoolslikemoldsandDies.aspx">Certifiation of moulds and Dies</a></li>
+             
+            </ul>
+          </li>
+
+     <%--      <li><a href="#">FEEDBACK</a></li>
+	      <li><a href="EnquiryUs.aspx">ENQUIRY US</a></li>--%>
+          <li><a href="Contactus.aspx">CONTACT  US</a></li>
+<li><a href="http://www.khyatiplast.in">Plastic Manufacturing</a></li>
+        </ul>
+	  </div>
+    
+  </div>
+        </asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder id="BannarPart" runat="server">
+        <div class="Banner">
+  	  <div class="Banner-Main">
+      			<div class="wrapper">
+              <div class="s-shadow-b"></div>
+              <a id="slide-next" href="#"></a> 
+              <a id="slide-prev" href="#"></a>
+              <div id="slider">
+                <div class="slide cs-activeSlide"> <img src="img/ban1.jpg" width="900" height="300" alt="photo #1" /> </div>
+                <div class="slide"> <img src="img/banner3.jpg" width="900" height="300" alt="photo #2" /> </div>
+                <div class="slide"> <img src="img/banner4.jpg" width="900" height="300" alt="photo #3" /> </div>
+                <div class="slide"> <img src="img/image-slider-2.jpg" width="900" height="300" alt="photo #4" /> </div>
+                <div class="slide"> <img src="img/banner12.jpg" width="900" height="300" alt="photo #5" /> </div>
+          <%--      <div class="slide"> <img src="slide_images/pic6.jpg" width="900" height="300" alt="photo #6" /> </div>
+                <div class="slide"> <img src="slide_images/pic7.jpg" width="900" height="300" alt="photo #7" /> </div>--%>
+              </div>
+              <div class="pagination"> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+                <span class="slider-pagination"></span> 
+              </div>
+              <div class="slide-descriptions">
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+                <div class="sl-descr">A  Chartered Engineer is an engineer approve to inspect, asses and submit it’s independent observation required . Thus a chartered engineer has great responsibility to prepare and submit his unbiased observation , where ever required.</div>
+              </div>
+              <div class="caption"></div>
+            </div>
+      
+      <br clear="all">
+      </div>
+  	</div>
+        </asp:ContentPlaceHolder>
+
+        <div class="Midder">
+    <div class="Midder-Main">
+
+         <asp:ContentPlaceHolder id="Firstpart" runat="server">
+        <div class="Midder-Banner-Block">
+        <div class="Midder-Banner-Block1"><img src="img/product1.jpg" width="300" height="160" style="border: thin solid #666666" /></div>
+        <div class="Midder-Banner-Block2"><img src="img/product32new.jpg" width="300" height="160" style="border: thin solid #666666" /></div>
+        <div class="Midder-Banner-Block2"><img src="img/product4new.jpg" width="300" height="160" style="border: thin solid #666666"/></div>
+      </div>
+
+
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder id="midpart2" runat="server">
+        <div>
+        
+      </div>
+        </asp:ContentPlaceHolder>
+               <br/ clear="all">
+        </div>
+    </div>
+        <asp:ContentPlaceHolder id="Footerpart" runat="server">
+        <div class="Footer">
+    <div class="Footer-Main">
+    <div class="footer-cols-wrapper">
+<div class="footer-col">
+<h4>Information</h4>
+<div class="footer-col-content">
+<ul>
+<li><a href="AboutUs.aspx">About Us</a></li>
+<li><a href="ServicesOfferd.aspx">Customer Service</a></li>
+<li class="last privacy"><a href="#">Privacy Policy</a></li>
+</ul> <ul class="links">
+<li class="first"><a href="#" title="Site Map">Site Map</a></li>
+<li><a href="#">Search Terms</a></li>
+<%--<li><a href="#">Advanced Search</a></li>
+<li><a href="#" title="Orders and Returns">Orders and Returns</a></li>--%>
+<li class=" last"><a href="Contactus.aspx" title="Contact Us">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-col">
+<h4>WHY MEET FROM US</h4>
+<div class="footer-col-content">
+<ul>
+<li><a href="#">Cheap and Best </a></li>
+<li><a href="#">Secure Services</a></li>
+<li><a href="#">International Services</a></li>
+<li><a href="#">Affiliates</a></li>
+<li><a href="#">Group Services</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-col">
+<h4>MY ACCOUNT</h4>
+<div class="footer-col-content">
+<ul>
+<li><a href="#">Sign In</a></li>
+<li><a href="#">View Cart</a></li>
+<li><a href="#">My Wishlist</a></li>
+<li><a href="#">Track My Order</a></li>
+<li><a href="#">Help</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-col last contacts">
+<h4>CONTACTS</h4>
+<div class="footer-col-content">
+Pradeep Kumar<br/>
+F-171/F2, 
+Dilshad Colony
+Delhi-110095
+
+
+ <br>
+
+<span>Ph.+91-9868235993, 9891516275</span>
+</div>
+</div> </div>
+    <div class="Footer-Dwon">
+      <div class="Footer-Dwon_Copyright"><p>||Copyright © Chartered Engineer || &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  || Design and Developed by <a href="http://www.aimitsoft.com/"> AIM IT SOFTECH PVT.LTD.</a>||</p></div>
+      <div class="Footer-Ao"><h3><a href="http://www.aimitsoftech.com/" target="_blank"></a></h3>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+   </asp:ContentPlaceHolder>
+  <br clear="all">
+</div>
+<script type="text/javascript">
+    var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+</script>
+       
+    </div>
+    </form>
+</body>
+</html>

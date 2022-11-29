@@ -1,0 +1,129 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="EnquiryUs.aspx.cs" Inherits="EnquiryUs" %>
+
+
+<asp:Content ID="Content1" runat="server" contentplaceholderid="midpart2">
+        <div>
+        <div class="For-Midder2">
+      <div class="For-Midder2_Right">
+          <div class="For-Midder2_Right_Quick">
+            <h3>Quick Destinations</h3><ul><li><a href="#">Chennai</a></li>
+											<li><a href="#">Kolkata</a></li> 
+											<li><a href="#">Mumbai</a></li> 
+											<li><a href="#">Delhi</a></li> 
+											<li><a href="#">Rajasthan</a></li>
+											<li><a href="#">Uttranchal</a></li> 
+											<li><a href="#">Orisa</a></li> 
+											<li><a href="#">Hyderabad</a></li>
+                                       </ul>
+          </div>
+          <div class="For-Midder2_Right_Social"><div class="form-outer">
+          <div class="form-top">
+          <br/>
+        <h3>    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; Send A Query</h3>
+            <br/>
+          </div>
+          <div class="form-middle">
+            <div class="post2" style="background:none;">
+              <form name="form" id="form" action="" method="post" style="width:293px;">
+                <div class="main">
+                  <div id="ngothastyle3">
+                    <div class="gap">
+                      <label class="lforl txt"><strong>Name:</strong></label>
+                      <input type="text" name="name" class="input"  />
+                    </div>
+                    <div class="gap">
+                      <label class="lforl txt"><strong>Phone  No.:</strong></label>
+                      <input type="text" name="phone" class="input" maxlength="100"  />
+                    </div>
+                    <div class="gap">
+                      <label class="lforl txt"><strong>Email:</strong></label>
+                      <input type="text" name="email" class="input" maxlength="100"  />
+                    </div>
+                    <div class="gap">
+                      <label class="lforl txt"><strong>Query:</strong></label>
+                      <textarea name="query"  class="input error1" id="textarea" ></textarea>
+                    </div>
+                    <div>
+                      <div style="margin-left:163px;">
+                        <input type="submit" value="Submit" class="submit_query">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="form-bottem">&nbsp;</div>
+        </div>
+          </div>
+        </div>
+        <div class="For-Midder2_Left">
+          <div class="For-Midder2_Left_Welcome">
+            <h1>SERVICES OFFERED <br />
+               <br /></h1>
+
+
+              
+
+
+              <p><b>Import of second hand machineries and spare parts:</b> </p>
+
+		<p> A second hand machine imported in India is required to be certified by a chartered engineer as per custom law.
+          
+          
+          </p>
+
+           <p><b>Appliation for EPCG license :</b> </p>
+
+		<p>To import plant and machineries required for a project under EPCG scheme , certification is required from a chartered engineer justifying its use in the project.
+          
+          </p>
+           <p><b>Certification for Duty drawback fixing:</b> </p>
+
+		<p> A company importing raw material needs to get certified consumption of raw material, wastage etc. Chartered engineer has to certify that imported materials are used in the production of said product
+          
+          </p>
+           <p><b>Installation Certificate : </b> </p>
+
+		<p> After final installation of plant and machineries , certificate has to be obtained from a chartered engineer to verifying that installation is  proper and as per products list actually procured.
+          
+          </p>
+           <p><b>Raw material use Certification:  </b> </p>
+
+		<p> Consumption of raw material is evaluated and certified by chartered engineer for proper consumption and utilization.
+          
+          </p>
+
+
+
+           <p><b>Certification for export of defective parts:   </b> </p>
+
+		<p> To export defective parts for repair /replacement has to certified by a chartered engineer 
+          </p>
+           <p><b>Certification for Ministry for new and renewable Energy:   </b> </p>
+
+		<p>importers of solar  power generators has to get chartered engineer’s certificate to avail custom/excise exemption.
+          </p>
+           <p><b>Certification for BIS:  </b> </p>
+
+		<p> To apply to BIS, a manufacturer ahs to get hertered engineer certificate for plant and machineries, laboratory for testing require for manufacturing as per BIS norms
+          </p>
+           <p><b>Certifiation of tools like molds and Dies:   </b> </p>
+
+		<p> Tools, mould and dies are certified by chartered engineer for it performance, capacity.
+
+
+          </p>
+
+
+</div>
+          
+
+         
+
+
+
+        </div>
+      </div>
+     </div>
+        </asp:Content>
